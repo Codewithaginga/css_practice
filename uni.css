@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.container{
+    background: linear-gradient(rgba(0,0,0,0.5), #0b0b0b),url(images/eunita.jpg);
+    background-size: cover;
+   
+    height: 100vh;
+}
+
+
+.navbar{
+
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.navbar .logo{
+    padding-top: 40px;
+    padding-left: 40px;
+    width: 100px;
+}
+
+.navbar ul{
+    padding-left: 500px;
+    padding-top: 20px;
+}
+
+.navbar ul li{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar .menu-icon{
+
+    margin-right: 20px;
+    width: 30px;
+    padding-top: 15px;
+
+}
+
+.navbar ul li a:hover{
+    background: maroon;
+    padding: 5px;
+    transition: 0.5s;
+    border-radius: 4px;
+
+}
+
+.heading{
+    margin-top: 170px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.heading h1{
+    color: #fff;
+    font-size: 50px;
+}
+
+.heading span{
+    color: red;
+}
+
+.heading p{
+    color: #fff;
+}
+
+.box{
+    flex-basis: auto;
+    float: left;
+    margin-left: 30px;
+}
+
+.pic{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.box img{
+    border-radius: 10%;
+}
+
+.box img:hover{
+    cursor: pointer;
+    background:rgba(47, 31, 31, 0.7)
+}
